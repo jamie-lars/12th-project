@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+    height: 100vh;
+    background: url('img1.jpg') no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgb(141, 104, 167);
+}
+header{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+p .tt{
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(218, 212, 212);
+}
+.container{
+    max-width: 300vh;
+    background-color: rgb(37, 37, 63);
+    padding: 20px;
+    width: 14cm;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 1;
+}
+.txt{
+    width: 13cm;
+    height: 0.7cm;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.txtarea{
+    width: 13cm;
+    height: 3cm;
+}
+.btn{
+    width: 13cm;
+    height: 0.7cm;
+    border: none;
+    background: rgb(63, 146, 63);
+    color: #fff;
+    margin-top: 15px;
+}
